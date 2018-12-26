@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LifuCalendar_Example' do
+  pod 'LifuCalendar', :path => '../'
+
+  target 'LifuCalendar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
