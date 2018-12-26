@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27A8E361E53D49DCB941E7899FA7D775 /* Pods-LifuCalendar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E9114A35D8D269E1A88BF0173C5B79 /* Pods-LifuCalendar_Tests-dummy.m */; };
+		39FEF132D8244C4782EA118ED87BAB9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5173A9C2B8EF97CEEBF2775868E276E3 /* Pods-LifuCalendar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C96AA5DC4ADDAE20D1741C64F3B2688 /* Pods-LifuCalendar_Example-dummy.m */; };
+		6AA25C4DEE206EE96AACBCAD7733B7F4 /* LifuCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 066610375FC6D3224764393F1D295728 /* LifuCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		760674B442A2E3D47EA5E878176B1905 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		85EDDEFDDE8CB56B3285A14F29B1BA1E /* Pods-LifuCalendar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB0A14E26AFD7306D94DA1A44A9855BA /* Pods-LifuCalendar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8811DA1C615A228C360517B897E23989 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8DB60576FED1E3E8544F60B2E4BC449D /* Pods-LifuCalendar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37AA06FA15D05E8ADBA43948813DF276 /* Pods-LifuCalendar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C08FEEEE258641E1BC4D0EFEC44D0AC /* LifuCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74881B08865E916725F3B8F219BCBB2A /* LifuCalendar-dummy.m */; };
+		A9C414E789F830F2C05CC05E45160AC1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB6E59E8A3CF8AB5CBE02B5D1A554E6 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95D8839C846CA472A22B8606B1D4FB1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F329AE6AC99B30F0D740D79C21BE16C;
+			remoteInfo = "Pods-LifuCalendar_Example";
+		};
+		CB1AEEDF80D6AFE81C2C8F5722EB8975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA76EF8D90FA6A10D2C85D759595B684;
+			remoteInfo = LifuCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E9114A35D8D269E1A88BF0173C5B79 /* Pods-LifuCalendar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LifuCalendar_Tests-dummy.m"; sourceTree = "<group>"; };
+		066610375FC6D3224764393F1D295728 /* LifuCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LifuCalendar-umbrella.h"; sourceTree = "<group>"; };
+		088B6DA49E91F36316E8FA2D1283631C /* Pods-LifuCalendar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LifuCalendar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1211C9A4E34041DE8351C9AF15F15439 /* LifuCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LifuCalendar-prefix.pch"; sourceTree = "<group>"; };
+		1C96AA5DC4ADDAE20D1741C64F3B2688 /* Pods-LifuCalendar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LifuCalendar_Example-dummy.m"; sourceTree = "<group>"; };
+		1D1BC1E50192BAF7108533C3736FA0D9 /* Pods_LifuCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifuCalendar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F8D44C97D8E52F91906D8DEB8E06C1 /* LifuCalendar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = LifuCalendar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2C357B4226C9D79BE59595A0A174BF14 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		37AA06FA15D05E8ADBA43948813DF276 /* Pods-LifuCalendar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LifuCalendar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3DE5B77FE8CB6C3FAAAE6C17E0859F05 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3E791ED2E67D7FF897D353457E503BE5 /* Pods-LifuCalendar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LifuCalendar_Tests.modulemap"; sourceTree = "<group>"; };
+		4AE3642A04FC60E7E55A2DF39E6CB975 /* Pods-LifuCalendar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LifuCalendar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4B9D3BBBAD6525DC67114D58B35DE61E /* Pods-LifuCalendar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LifuCalendar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		696F293FEFB79D80C2506310A8BF34D6 /* Pods-LifuCalendar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LifuCalendar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6FF79256F57219B11DF0BD4FB8631713 /* LifuCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LifuCalendar.xcconfig; sourceTree = "<group>"; };
+		74881B08865E916725F3B8F219BCBB2A /* LifuCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LifuCalendar-dummy.m"; sourceTree = "<group>"; };
+		797EABE6B8CB54F058C897E634462F17 /* Pods-LifuCalendar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LifuCalendar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8835D76297786BB69AE6141BACF38C6C /* Pods-LifuCalendar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LifuCalendar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8D7B8A0C6E1F2A28980AF63453005CDA /* Pods-LifuCalendar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LifuCalendar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9139BF4A8B76BBE5B5ABAC6C41244860 /* Pods-LifuCalendar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LifuCalendar_Tests-resources.sh"; sourceTree = "<group>"; };
+		92428548D045DED4501B98E3A5FFD7AF /* Pods-LifuCalendar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LifuCalendar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98F922A1124D61986E5429A6678C2EAF /* Pods-LifuCalendar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LifuCalendar_Example-resources.sh"; sourceTree = "<group>"; };
+		992B7103751B92F168A82187B6883457 /* LifuCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LifuCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2EEC124A21E0CF58BD2AD372C56001C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1B8DAD6D7D82B0089AC8D1889755C4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B75F975BA23C49253D1A7738FE2A5C30 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7C4EC85F8B6E9496EAE2EFC461FC62A /* Pods-LifuCalendar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LifuCalendar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB6E59E8A3CF8AB5CBE02B5D1A554E6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = LifuCalendar/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		DBB8BC663090303380BE4BFD75166137 /* Pods-LifuCalendar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LifuCalendar_Example.modulemap"; sourceTree = "<group>"; };
+		DFB0DE8EC9EE5ADC3F4DC36B06BFD9D1 /* LifuCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LifuCalendar.modulemap; sourceTree = "<group>"; };
+		E53B6444B357D36E006726A5C784D735 /* Pods_LifuCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifuCalendar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0BF63DE865A82D4D5D61CA59A8EB9F3 /* Pods-LifuCalendar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LifuCalendar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB0A14E26AFD7306D94DA1A44A9855BA /* Pods-LifuCalendar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LifuCalendar_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09618DF92476D8417DA5961A3A8CF5D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760674B442A2E3D47EA5E878176B1905 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7884B630CF6D316D087BC1A6D8CD2532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FEF132D8244C4782EA118ED87BAB9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF92369912AB3EB93EE2363A54375EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8811DA1C615A228C360517B897E23989 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02001BB6CF369B2606A6F823F48F1889 /* LifuCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				CBB6E59E8A3CF8AB5CBE02B5D1A554E6 /* ReplaceMe.swift */,
+				19202B6D08FE02A83FFAFE40EFE9AE83 /* Pod */,
+				DA8B4555B0EF5882596CA987B9E78116 /* Support Files */,
+			);
+			name = LifuCalendar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		10735D0B26538DE77CA05923F4063FA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				992B7103751B92F168A82187B6883457 /* LifuCalendar.framework */,
+				1D1BC1E50192BAF7108533C3736FA0D9 /* Pods_LifuCalendar_Example.framework */,
+				E53B6444B357D36E006726A5C784D735 /* Pods_LifuCalendar_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19202B6D08FE02A83FFAFE40EFE9AE83 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2C357B4226C9D79BE59595A0A174BF14 /* LICENSE */,
+				27F8D44C97D8E52F91906D8DEB8E06C1 /* LifuCalendar.podspec */,
+				3DE5B77FE8CB6C3FAAAE6C17E0859F05 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2E9BEED50E87E46B96A8616B6279CEB9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02001BB6CF369B2606A6F823F48F1889 /* LifuCalendar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2E9BEED50E87E46B96A8616B6279CEB9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				10735D0B26538DE77CA05923F4063FA5 /* Products */,
+				FA1D83565899FEC5826BB75A691A182C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8516DE0649B89A9AF8D76DDB2998CE9F /* Pods-LifuCalendar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A2EEC124A21E0CF58BD2AD372C56001C /* Info.plist */,
+				DBB8BC663090303380BE4BFD75166137 /* Pods-LifuCalendar_Example.modulemap */,
+				F0BF63DE865A82D4D5D61CA59A8EB9F3 /* Pods-LifuCalendar_Example-acknowledgements.markdown */,
+				797EABE6B8CB54F058C897E634462F17 /* Pods-LifuCalendar_Example-acknowledgements.plist */,
+				1C96AA5DC4ADDAE20D1741C64F3B2688 /* Pods-LifuCalendar_Example-dummy.m */,
+				696F293FEFB79D80C2506310A8BF34D6 /* Pods-LifuCalendar_Example-frameworks.sh */,
+				98F922A1124D61986E5429A6678C2EAF /* Pods-LifuCalendar_Example-resources.sh */,
+				FB0A14E26AFD7306D94DA1A44A9855BA /* Pods-LifuCalendar_Example-umbrella.h */,
+				8D7B8A0C6E1F2A28980AF63453005CDA /* Pods-LifuCalendar_Example.debug.xcconfig */,
+				92428548D045DED4501B98E3A5FFD7AF /* Pods-LifuCalendar_Example.release.xcconfig */,
+			);
+			name = "Pods-LifuCalendar_Example";
+			path = "Target Support Files/Pods-LifuCalendar_Example";
+			sourceTree = "<group>";
+		};
+		AF13B95C7DAD2CD68F2A9E3CC1C24466 /* Pods-LifuCalendar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B1B8DAD6D7D82B0089AC8D1889755C4B /* Info.plist */,
+				3E791ED2E67D7FF897D353457E503BE5 /* Pods-LifuCalendar_Tests.modulemap */,
+				4B9D3BBBAD6525DC67114D58B35DE61E /* Pods-LifuCalendar_Tests-acknowledgements.markdown */,
+				4AE3642A04FC60E7E55A2DF39E6CB975 /* Pods-LifuCalendar_Tests-acknowledgements.plist */,
+				00E9114A35D8D269E1A88BF0173C5B79 /* Pods-LifuCalendar_Tests-dummy.m */,
+				8835D76297786BB69AE6141BACF38C6C /* Pods-LifuCalendar_Tests-frameworks.sh */,
+				9139BF4A8B76BBE5B5ABAC6C41244860 /* Pods-LifuCalendar_Tests-resources.sh */,
+				37AA06FA15D05E8ADBA43948813DF276 /* Pods-LifuCalendar_Tests-umbrella.h */,
+				C7C4EC85F8B6E9496EAE2EFC461FC62A /* Pods-LifuCalendar_Tests.debug.xcconfig */,
+				088B6DA49E91F36316E8FA2D1283631C /* Pods-LifuCalendar_Tests.release.xcconfig */,
+			);
+			name = "Pods-LifuCalendar_Tests";
+			path = "Target Support Files/Pods-LifuCalendar_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DA8B4555B0EF5882596CA987B9E78116 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B75F975BA23C49253D1A7738FE2A5C30 /* Info.plist */,
+				DFB0DE8EC9EE5ADC3F4DC36B06BFD9D1 /* LifuCalendar.modulemap */,
+				6FF79256F57219B11DF0BD4FB8631713 /* LifuCalendar.xcconfig */,
+				74881B08865E916725F3B8F219BCBB2A /* LifuCalendar-dummy.m */,
+				1211C9A4E34041DE8351C9AF15F15439 /* LifuCalendar-prefix.pch */,
+				066610375FC6D3224764393F1D295728 /* LifuCalendar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LifuCalendar";
+			sourceTree = "<group>";
+		};
+		FA1D83565899FEC5826BB75A691A182C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8516DE0649B89A9AF8D76DDB2998CE9F /* Pods-LifuCalendar_Example */,
+				AF13B95C7DAD2CD68F2A9E3CC1C24466 /* Pods-LifuCalendar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D562AFCACB94D260F38CDECFC7458D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB60576FED1E3E8544F60B2E4BC449D /* Pods-LifuCalendar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A09B2C792538692E0904ED0B57059F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EDDEFDDE8CB56B3285A14F29B1BA1E /* Pods-LifuCalendar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1D9BC77A2647CBB9FE0653420061F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA25C4DEE206EE96AACBCAD7733B7F4 /* LifuCalendar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F27C76B7CFFF63EF92E7ABE293337BD /* Pods-LifuCalendar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1C9A229492864945641CD76C6140E8 /* Build configuration list for PBXNativeTarget "Pods-LifuCalendar_Tests" */;
+			buildPhases = (
+				4C6A224AF68F6D76335AB4353DA5DE4D /* Sources */,
+				7884B630CF6D316D087BC1A6D8CD2532 /* Frameworks */,
+				0D562AFCACB94D260F38CDECFC7458D5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E05FBF5440EB76EF4A02FB8F1F468C6 /* PBXTargetDependency */,
+			);
+			name = "Pods-LifuCalendar_Tests";
+			productName = "Pods-LifuCalendar_Tests";
+			productReference = E53B6444B357D36E006726A5C784D735 /* Pods_LifuCalendar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1F329AE6AC99B30F0D740D79C21BE16C /* Pods-LifuCalendar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3E47FC19FBDAA7DEC32266D467787DE /* Build configuration list for PBXNativeTarget "Pods-LifuCalendar_Example" */;
+			buildPhases = (
+				A92683B07127DE3D9B3E1F2DA962C481 /* Sources */,
+				EF92369912AB3EB93EE2363A54375EFB /* Frameworks */,
+				F3A09B2C792538692E0904ED0B57059F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				903DAB7380CA8AD26DF8918248C5DBA6 /* PBXTargetDependency */,
+			);
+			name = "Pods-LifuCalendar_Example";
+			productName = "Pods-LifuCalendar_Example";
+			productReference = 1D1BC1E50192BAF7108533C3736FA0D9 /* Pods_LifuCalendar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA76EF8D90FA6A10D2C85D759595B684 /* LifuCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9206FF459F94D9C756F2F46353996503 /* Build configuration list for PBXNativeTarget "LifuCalendar" */;
+			buildPhases = (
+				E5ECE32B3F3D2D4EFFD13ABAD9105D68 /* Sources */,
+				09618DF92476D8417DA5961A3A8CF5D2 /* Frameworks */,
+				FA1D9BC77A2647CBB9FE0653420061F3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifuCalendar;
+			productName = LifuCalendar;
+			productReference = 992B7103751B92F168A82187B6883457 /* LifuCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					CA76EF8D90FA6A10D2C85D759595B684 = {
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 10735D0B26538DE77CA05923F4063FA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA76EF8D90FA6A10D2C85D759595B684 /* LifuCalendar */,
+				1F329AE6AC99B30F0D740D79C21BE16C /* Pods-LifuCalendar_Example */,
+				0F27C76B7CFFF63EF92E7ABE293337BD /* Pods-LifuCalendar_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C6A224AF68F6D76335AB4353DA5DE4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A8E361E53D49DCB941E7899FA7D775 /* Pods-LifuCalendar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92683B07127DE3D9B3E1F2DA962C481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5173A9C2B8EF97CEEBF2775868E276E3 /* Pods-LifuCalendar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5ECE32B3F3D2D4EFFD13ABAD9105D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C08FEEEE258641E1BC4D0EFEC44D0AC /* LifuCalendar-dummy.m in Sources */,
+				A9C414E789F830F2C05CC05E45160AC1 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E05FBF5440EB76EF4A02FB8F1F468C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LifuCalendar_Example";
+			target = 1F329AE6AC99B30F0D740D79C21BE16C /* Pods-LifuCalendar_Example */;
+			targetProxy = 95D8839C846CA472A22B8606B1D4FB1D /* PBXContainerItemProxy */;
+		};
+		903DAB7380CA8AD26DF8918248C5DBA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LifuCalendar;
+			target = CA76EF8D90FA6A10D2C85D759595B684 /* LifuCalendar */;
+			targetProxy = CB1AEEDF80D6AFE81C2C8F5722EB8975 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C962BE65F78A872BB7D3085C413DAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF79256F57219B11DF0BD4FB8631713 /* LifuCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LifuCalendar/LifuCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LifuCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LifuCalendar/LifuCalendar.modulemap";
+				PRODUCT_MODULE_NAME = LifuCalendar;
+				PRODUCT_NAME = LifuCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		52DC1C412502ED8FB2DB314E5971ECE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF79256F57219B11DF0BD4FB8631713 /* LifuCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LifuCalendar/LifuCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LifuCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LifuCalendar/LifuCalendar.modulemap";
+				PRODUCT_MODULE_NAME = LifuCalendar;
+				PRODUCT_NAME = LifuCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68FEFF01B00498360ED715F3A8F32C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D7B8A0C6E1F2A28980AF63453005CDA /* Pods-LifuCalendar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LifuCalendar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LifuCalendar_Example/Pods-LifuCalendar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6BC9EAF997451AB84D24CBD7AFE60EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92428548D045DED4501B98E3A5FFD7AF /* Pods-LifuCalendar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LifuCalendar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LifuCalendar_Example/Pods-LifuCalendar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D0AB6BC0203B789F7B61D747C4F47CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7C4EC85F8B6E9496EAE2EFC461FC62A /* Pods-LifuCalendar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LifuCalendar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LifuCalendar_Tests/Pods-LifuCalendar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		99B1D9A26D7CB1B5C96486CFAB4B5361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 088B6DA49E91F36316E8FA2D1283631C /* Pods-LifuCalendar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LifuCalendar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LifuCalendar_Tests/Pods-LifuCalendar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9206FF459F94D9C756F2F46353996503 /* Build configuration list for PBXNativeTarget "LifuCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C962BE65F78A872BB7D3085C413DAEE /* Debug */,
+				52DC1C412502ED8FB2DB314E5971ECE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB1C9A229492864945641CD76C6140E8 /* Build configuration list for PBXNativeTarget "Pods-LifuCalendar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D0AB6BC0203B789F7B61D747C4F47CE /* Debug */,
+				99B1D9A26D7CB1B5C96486CFAB4B5361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E47FC19FBDAA7DEC32266D467787DE /* Build configuration list for PBXNativeTarget "Pods-LifuCalendar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68FEFF01B00498360ED715F3A8F32C48 /* Debug */,
+				6BC9EAF997451AB84D24CBD7AFE60EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

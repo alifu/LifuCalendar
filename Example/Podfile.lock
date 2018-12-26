@@ -1,0 +1,16 @@
+PODS:
+  - LifuCalendar (0.1.0)
+
+DEPENDENCIES:
+  - LifuCalendar (from `../`)
+
+EXTERNAL SOURCES:
+  LifuCalendar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LifuCalendar: 661c3fcb8882f7ec758a078e3f965bfdaf8b6455
+
+PODFILE CHECKSUM: ca5620f8232ce2e9641182014d33a0ff13cff04b
+
+COCOAPODS: 1.5.3

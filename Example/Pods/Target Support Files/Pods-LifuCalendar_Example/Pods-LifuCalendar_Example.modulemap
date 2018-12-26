@@ -1,0 +1,6 @@
+framework module Pods_LifuCalendar_Example {
+  umbrella header "Pods-LifuCalendar_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module LifuCalendar {
+  umbrella header "LifuCalendar-umbrella.h"
+
+  export *
+  module * { export * }
+}
